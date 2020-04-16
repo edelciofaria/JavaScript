@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+     alunos = [];
+
+     
+        for(i=0; i<3; i++){
+            nome = prompt("Digite o nome do aluno:");
+            notas = [];
+            for(x=0; x<2; x++){
+                nota = prompt("Digite a nota " + (x+1) + " do Aluno ");
+                nota = parseInt(nota);
+                notas.push(nota);
+            }
+        aluno = {};
+        aluno.nome = nome;
+        aluno.notas = notas;
+        alunos.push(aluno)
+        }
+    </script>
+</body>
+</html>
